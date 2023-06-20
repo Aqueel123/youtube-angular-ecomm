@@ -1,0 +1,17 @@
+.sign-up {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.loginErrMsg {
+    color: red;
+}
