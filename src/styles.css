@@ -30,3 +30,11 @@ body {
     border: 1px solid blueviolet;
     cursor: pointer;
 }
+
+.loginErrMsg {
+    color: red;
+}
+
+.message-p {
+    color: green;
+}

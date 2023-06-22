@@ -24,5 +24,16 @@
       "email": "test@gmail.com",
       "id": 4
     }
+  ],
+  "products": [
+    {
+      "name": "IPhone 10",
+      "price": "50000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "Apple",
+      "image": "https://rukminim1.flixcart.com/image/416/416/mobile/h/k/n/apple-iphone-6-original-imaeyny5agaysfqg.jpeg?q=70",
+      "id": 1
+    }
   ]
 }

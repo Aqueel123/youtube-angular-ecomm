@@ -1,1 +1,33 @@
-<p>seller-home works!</p>
+<div>
+    <h1>All Product List</h1>
+    <p class="message-p">{{productDeleteMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <td>Image</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Color</td>
+                <td>Category</td>
+                <td>Description</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let product of productList">
+                <td><img src='{{ product.image }}' alt=""> </td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.price }}</td>
+                <td>{{ product.color }}</td>
+                <td>{{ product.category }}</td>
+                <td>{{ product.description }}</td>
+                <td> 
+                    <fa-icon (click)="deleteProduct(product.id)" [icon]="deleteIcon"></fa-icon> 
+                    <fa-icon [icon]="editIcon"></fa-icon> 
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
