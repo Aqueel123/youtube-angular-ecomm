@@ -34,6 +34,33 @@
       "description": "Apple",
       "image": "https://rukminim1.flixcart.com/image/416/416/mobile/h/k/n/apple-iphone-6-original-imaeyny5agaysfqg.jpeg?q=70",
       "id": 1
+    },
+    {
+      "name": "Asus Vivobook",
+      "price": "60000",
+      "color": "Silver",
+      "category": "Laptop",
+      "description": "Vivo Laptop",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70",
+      "id": 2
+    },
+    {
+      "name": "Samsung Galaxy S21 fe",
+      "price": "33000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "Samsung product",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l30hmkw0/mobile/w/j/o/galaxy-s21-fe-5g-sm-g990ewziinu-samsung-original-image8dzwv3bch4k.jpeg?q=70",
+      "id": 3
+    },
+    {
+      "name": "Yonex Tru",
+      "price": "699",
+      "color": "Red",
+      "category": "Shoes",
+      "description": "Yonex",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/9/y/t/-original-imagpzzh4vmmh4uz.jpeg?q=70",
+      "id": 4
     }
   ]
 }

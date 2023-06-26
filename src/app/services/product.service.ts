@@ -10,7 +10,6 @@ export class ProductService {
   constructor(private http:HttpClient) { }
 
   addProduct(data: product) {
-    console.warn("Data :", data);
     return this.http.post("http://localhost:3000/products", data);
   }
 
@@ -20,5 +19,17 @@ export class ProductService {
 
   deleteProduct(id: number) {
     return this.http.delete(`http://localhost:3000/products/${id}`);
+  }
+
+  productById(id: string) {
+    return this.http.get<product>(`http://localhost:3000/products/${id}`);
+  }
+
+  updateProduct(product: product) {
+    return this.http.put<product>(`http://localhost:3000/products/${product.id}`, product);
+  }
+
+  popularProduct() {
+    return this.http.get<product[]>("http://localhost:3000/products?_limit=3");
   }
 }

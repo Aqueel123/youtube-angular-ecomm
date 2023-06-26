@@ -1,0 +1,14 @@
+.product-header-img {
+    object-fit: contain;
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: #00000082;
+    border: 5px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
